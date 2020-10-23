@@ -26,7 +26,7 @@ class C_HIN():
     define the limit number of node in each hop of metapath - fixing problem of memory limitation
     -> value = -1 -> no limitation
     '''
-    LIMIT_NODESET_SIZE = -1
+    LIMIT_NODESET_SIZE = 30
 
     def __init__(self, input_graph_file):
 
